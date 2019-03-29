@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen1136x1136">
+
+    <Button
+        android:id="@+id/priceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_gradient"
+        android:padding="5dp"
+        android:text="@string/current_value"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
